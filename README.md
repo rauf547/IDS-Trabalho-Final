@@ -1,8 +1,6 @@
-# Engenharia de Sistemas de Detecção de Intrusões 
-
 ## Classificação do Tráfego de Rede Utilizando Algoritmos de Aprendizado de Máquina
 
-- informações como o dataset que foi utilizado/construído pelo grupo (ou instruções para obtê-lo);
+Este trabalho é parte integrante da disciplina de Engenharia de Sistemas de Detecção de Intrusões do Programa de Pós-Graduação em Engenharia de Software da Unipampa.
 
 ## Implementação 
 ### Dataset 
@@ -21,20 +19,23 @@ UNSW_NB15_testing-set.csv: Partição predefinida com 82.332 instâncias. É o c
 
 Esse trabalho apresenta uma análise comparativa  para otimização de um Sistema de Detecção de Intrusão (IDS) baseado em Inteligência Artificial aplicado ao dataset UNSW-NB15. O objetivo deste estudo é perceber através da investigação do dataset e exploração dos hiperparâmetros dos classificadores identificar o mais adequado para a classificação em termos de eficácia na detecção de falsos positivos, falsos negativos e custo computacional.O estudo parte da limpeza de dados, codificação de variáveis categóricas, seleção de features baseado em Random Forest. Para o treino do modelo foram utilizados os classificadores K-Nearest Neighbors (k-NN), Multi-Layer Perceptron (MLPClassifier) e Support Vector Machine (SVM). Para exploração e identificação dos valores ótimos dos hiperparâmetros dos classificadores foi utilizado o RandomizedSearchCV. Os resultados obtidos foram satisfatórios de modo geral.
 
+### Tecnologias Utilizadas
 
+Para o desenvolvimento do trabalho foram utilizadas as seguintes ferramentas: Google Colaboratory (ambiente de programação), Google Drive (armazenamento da instância), Google Gemini, linguagem Python v3.7, além das bibliotecas pandas, scikit-learn, numpy e matplotlib.
 
+### Metodologia,
 
-- metodologia,
+A implementação prática deste estudo consiste nos seguintes passos:
+
+* Escolha do Dataset
+* Pré-Processamento
+* Seleção de Features
+* Treinamento dos modelos
+* Análise de Resultados (Avaliação do Conjunto de Testes)
 
   
-- arquitetura proposta,
+### Resultados Obtidos.
 
   
-- tecnologias utilizadas
 
-  
-- resultados obtidos.
-
-  
-- Resultados experimentais (gráficos, métricas, logs, etc.);
 
