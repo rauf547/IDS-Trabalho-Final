@@ -36,6 +36,38 @@ A implementação prática deste estudo consiste nos seguintes passos:
   
 ### Resultados Obtidos.
 
-  
+### Seleção de Features utilizando Threshold = "mean"
+
+  Treinando Random Forest para Feature Importance...
+Treinamento concluído.
+
+Número original de features: 191\
+Número de features selecionadas: 34
+
+Top Features Selecionadas (baseado no threshold da Mediana):
+['dur', 'spkts', 'dpkts', 'sbytes', 'dbytes', 'rate', 'sttl', 'dttl', 'sload', 'dload', 'sloss', 'dloss', 'sinpkt', 'dinpkt', 'sjit', 'djit', 'swin', 'stcpb', 'dtcpb', 'tcprtt', 'synack', 'ackdat', 'smean', 'dmean', 'ct_srv_src', 'ct_state_ttl', 'ct_dst_ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm', 'ct_src_ltm', 'ct_srv_dst', 'proto_arp', 'state_INT']
+
+Ranking das 20 Features mais importantes (em porcentagem):\
+sttl              11.4511%\
+ct_state_ttl       6.3667%\
+dload              5.5257%\
+rate               5.1310%\
+dttl               4.5252%\
+ackdat             4.1214%\
+sload              4.0810%\
+dmean              3.7315%\
+synack             3.7091%\
+ct_srv_dst         3.6343%\
+dinpkt             3.3235%\
+sbytes             3.2391%\
+dbytes             3.2094%\
+tcprtt             2.7676%\
+state_INT          2.7657%\
+dpkts              2.6333%\
+sinpkt             2.4137%\
+dur                2.3814%\
+ct_dst_src_ltm     2.3089%\
+ct_srv_src         2.3015%\
+dtype: object
 
 
